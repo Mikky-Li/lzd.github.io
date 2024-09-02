@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zidong Li - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #ecf0f1;
+            background-color: #2c3e50;
+        }
+        header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: #ecf0f1;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .profile-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .profile-container div {
+            text-align: left;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #3498db;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .social-links a:hover {
+            background-color: #1abc9c;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #34495e;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #2c3e50;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #ecf0f1;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        li::before {
+            content: "▹";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-bottom: 2rem;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="path/to/your/image.tiff" alt="Profile Picture">
+            <div>
+                <h1>Zidong Li</h1>
+                <p>MSc in Marketing and Business Analytics</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/zidong-li/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Mikky-Li" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://x.com/iakGdRUMMsTmiMX" target="_blank"><i class="fab fa-twitter"></i> X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="education">
+            <h2>Education Background</h2>
+            <p><strong>Master of Science in Marketing and Business Analytics</strong><br>
+            University of Pittsburgh Katz Graduate School of Business<br>
+            Graduated: December 2019</p>
+            <p><strong>Beijing Normal University-HONG KONG Baptist University<br>
+            United International College</strong><br>
+            Bachelor of Business Administration in Applied Economics<br>
+            2014/08-2018/06 | Zhuhai, Guangdong, China｜Grade: Upper Second Class Honour</p>
+        </section>
+        
+        
+<section id="experience">
+    <h2>Working Experience</h2>
+    <div>
+        <h3>China Guangfa Bank</h3>
+        <p><em>Acquiring Bank Strategy Data Analyst | 2024/02 – Now | Guangzhou-Foshan</em></p>
+        <ul>
+            <li>Developed and implemented fraud detection strategies for acquirer bank transactions, by following regulatory compliance issued from bank, banking regulatory commissions and card organizations.</li>
+            <ul>
+                <li>Specialized in identifying and controlling risks associated with illegal cash withdrawals using machine learning models, and optimized detection strategies based on analytical results.</li>
+            </ul>
+            <li>Led the team to explore external sources that could benefit merchants risk detections, such as blacklists from credit bureaus and information from card issue organizations and payment channels (Weixin Pay, Alipay).</li>
+        </ul>
+    </div>
+    <div>
+        <h3>China Guangfa Bank</h3>
+        <p><em>Data Analyst | 2020/05 – 2024/01 | Guangzhou-Foshan</em></p>
+        <ul>
+            <li style="list-style: none"> Conducted data analysis and data science support for outbound robots decision making.</li>
+            <ul>
+                <li>Utilized ML techniques to predict whether a user will continue active, and deployed outbound robots to inform low probability users with promotions, resulted in increasing 3 percent active rate compared with AB test control group.</li>
+                <li>Acquired data using SQL languages and web scraping (Selenium), and built real-time/daily/weekly data analysis and abnormal detection system, including reporting and abnormal detection dashboards.</li>
+                <li>Optimized outbound robots target users by deploying ML models to predict if a user will respond, and served users in different approaches (Call, SMS, APP), resulted in saving 40 percent outbound costs.</li>
+            </ul>
+            <li style="list-style: none"> Led team to explore the application of NLP in robocall text.</li>
+            <ul>
+                <li>Developed text classification models (Word2vec+TextCNN, Bert fine-tuning) in order to inspect problems resulted from low accuracy on supplier's intent recognition, and resulted in 4X feedback rate compared with manually processing.</li>
+                <li>Developed Bert+CRF based NER model, which resulted in 81 percent F1 score on recognizing risk and fraud events from text and allowed detection coverage rate increase from 15% to 100%.</li>
+            </ul>
+        </ul>
+    </div>
+</section>
+
+        
+        <section id="projects">
+            <h2>Project Experience</h2>
+            <ul>
+                <li><strong>Predicting Airbnb Listings Price:</strong> Applied machine learning and deep learning techniques to predict Airbnb listing prices.</li>
+                <li><strong>2019 Adobe Analytics Challenge:</strong> Participated in a data-driven marketing competition using Adobe Analytics.</li>
+                <li><strong>Brand Extension Project for DuPont:</strong> Conducted market research and analysis for potential brand extension opportunities.</li>
+            </ul>
+        </section>
+
+        <section id="video">
+            <h2>Featured Video</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/7jGVKXV6Vuc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
